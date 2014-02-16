@@ -6,7 +6,6 @@
 //  Copyright (c) 2014 Neil. All rights reserved.
 //
 
-#include "chapter 2.h"
 #include <iostream>
 #include <string>
 

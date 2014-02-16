@@ -6,7 +6,6 @@
 //  Copyright (c) 2014 Neil. All rights reserved.
 //
 
-#include "chapter3.h"
 #include <iomanip>
 #include <ios>
 #include <iostream>
