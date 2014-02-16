@@ -7,8 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D7431BC918B12251004474E2 /* Chapter3-4.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D7431BC718B12251004474E2 /* Chapter3-4.cpp */; };
+		D7A752B318A69F5F00BC17FD /* chapter3.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D7A752B118A69F5F00BC17FD /* chapter3.cpp */; };
+		D7A9A78618A7F0A0007BBF87 /* Chapter3-1.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D7A9A78418A7F0A0007BBF87 /* Chapter3-1.cpp */; };
+		D7A9ECEC18B11D1300D1A37E /* Chapter3-2.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D7A9ECEA18B11D1300D1A37E /* Chapter3-2.cpp */; };
+		D7A9ECEF18B11D8400D1A37E /* Chapter3-3.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D7A9ECED18B11D8400D1A37E /* Chapter3-3.cpp */; };
+		D7E3E8D918891913001F10A9 /* chapter 2.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D7E3E8D718891913001F10A9 /* chapter 2.cpp */; };
 		D7F778FD18871E5E00B69179 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D7F778FC18871E5E00B69179 /* main.cpp */; };
 		D7F778FF18871E5E00B69179 /* AcceleratedC.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = D7F778FE18871E5E00B69179 /* AcceleratedC.1 */; };
+		D7F7790718871E9E00B69179 /* chapter1.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D7F7790518871E9E00B69179 /* chapter1.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,9 +32,19 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		D7431BC718B12251004474E2 /* Chapter3-4.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "Chapter3-4.cpp"; sourceTree = "<group>"; };
+		D7A752B118A69F5F00BC17FD /* chapter3.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = chapter3.cpp; sourceTree = "<group>"; };
+		D7A752B218A69F5F00BC17FD /* chapter3.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = chapter3.h; sourceTree = "<group>"; };
+		D7A9A78418A7F0A0007BBF87 /* Chapter3-1.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "Chapter3-1.cpp"; sourceTree = "<group>"; };
+		D7A9ECEA18B11D1300D1A37E /* Chapter3-2.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "Chapter3-2.cpp"; sourceTree = "<group>"; };
+		D7A9ECED18B11D8400D1A37E /* Chapter3-3.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "Chapter3-3.cpp"; sourceTree = "<group>"; };
+		D7E3E8D718891913001F10A9 /* chapter 2.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "chapter 2.cpp"; sourceTree = "<group>"; };
+		D7E3E8D818891913001F10A9 /* chapter 2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "chapter 2.h"; sourceTree = "<group>"; };
 		D7F778F918871E5E00B69179 /* AcceleratedC */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = AcceleratedC; sourceTree = BUILT_PRODUCTS_DIR; };
 		D7F778FC18871E5E00B69179 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		D7F778FE18871E5E00B69179 /* AcceleratedC.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = AcceleratedC.1; sourceTree = "<group>"; };
+		D7F7790518871E9E00B69179 /* chapter1.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = chapter1.cpp; sourceTree = "<group>"; };
+		D7F7790618871E9E00B69179 /* chapter1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = chapter1.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -44,6 +61,12 @@
 		D7F778F018871E5E00B69179 = {
 			isa = PBXGroup;
 			children = (
+				D7A752B118A69F5F00BC17FD /* chapter3.cpp */,
+				D7A9A78418A7F0A0007BBF87 /* Chapter3-1.cpp */,
+				D7A9ECEA18B11D1300D1A37E /* Chapter3-2.cpp */,
+				D7A9ECED18B11D8400D1A37E /* Chapter3-3.cpp */,
+				D7431BC718B12251004474E2 /* Chapter3-4.cpp */,
+				D7A752B218A69F5F00BC17FD /* chapter3.h */,
 				D7F778FB18871E5E00B69179 /* AcceleratedC */,
 				D7F778FA18871E5E00B69179 /* Products */,
 			);
@@ -61,6 +84,10 @@
 			isa = PBXGroup;
 			children = (
 				D7F778FC18871E5E00B69179 /* main.cpp */,
+				D7F7790518871E9E00B69179 /* chapter1.cpp */,
+				D7E3E8D718891913001F10A9 /* chapter 2.cpp */,
+				D7E3E8D818891913001F10A9 /* chapter 2.h */,
+				D7F7790618871E9E00B69179 /* chapter1.h */,
 				D7F778FE18871E5E00B69179 /* AcceleratedC.1 */,
 			);
 			path = AcceleratedC;
@@ -118,6 +145,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				D7F778FD18871E5E00B69179 /* main.cpp in Sources */,
+				D7A9A78618A7F0A0007BBF87 /* Chapter3-1.cpp in Sources */,
+				D7431BC918B12251004474E2 /* Chapter3-4.cpp in Sources */,
+				D7F7790718871E9E00B69179 /* chapter1.cpp in Sources */,
+				D7E3E8D918891913001F10A9 /* chapter 2.cpp in Sources */,
+				D7A9ECEF18B11D8400D1A37E /* Chapter3-3.cpp in Sources */,
+				D7A9ECEC18B11D1300D1A37E /* Chapter3-2.cpp in Sources */,
+				D7A752B318A69F5F00BC17FD /* chapter3.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -196,6 +230,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
 			};
 			name = Debug;
 		};
@@ -203,6 +238,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
 			};
 			name = Release;
 		};
@@ -225,6 +261,7 @@
 				D7F7790418871E5E00B69179 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
